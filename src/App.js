@@ -5,7 +5,7 @@ import Signup from "./pages/signup/Signup";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Netflix-clone">
       <Routes>
         <Route path="/" element={<Signup />} />
         <Route path="/browse" element={<Browse />} />
