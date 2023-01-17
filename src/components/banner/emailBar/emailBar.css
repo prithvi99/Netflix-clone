@@ -1,0 +1,24 @@
+.netflix__form {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .netflix__formInput {
+    height: 70px;
+    min-width: 500px;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .netflix__formButton {
+    font-size: 1.875rem;
+    min-height: 70px;
+    padding: 0px 30px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  

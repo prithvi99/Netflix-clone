@@ -1,0 +1,64 @@
+.banner {
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.8)),
+      color-stop(60%, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.8))
+    ),
+    url(../../../public/assets/banner.jpg);
+  height: 100%;
+  background-size: cover;
+  min-height: 700px;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  margin: 0 56px;
+  padding: 20px 0px 0px;
+}
+
+.header__logo {
+  height: 50px;
+  padding: 8px 0 0;
+  /* padding-top: ; */
+}
+
+.header__button {
+  background-color: #e50914;
+  border: none;
+  color: white;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  height: fit-content;
+  margin: 10px;
+}
+
+.netflix__text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.netflix__text > h1 {
+  font-size: 3.125rem;
+  margin: 0;
+}
+
+
