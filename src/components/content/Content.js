@@ -42,7 +42,7 @@ const Content = ({ rowTitle, fetchUrl, isVertical = false }) => {
               <img
                 // className={`moviePoster ${isVertical && "largeMoviePoster"}`}
                 className={`${isVertical ? "largeMoviePoster" : "moviePoster"}`}
-                src={`http://image.tmdb.org/t/p/original${
+                src={`https://image.tmdb.org/t/p/original${
                   isVertical ? movie.poster_path : movie.backdrop_path
                 }`}
                 alt={movie.name}

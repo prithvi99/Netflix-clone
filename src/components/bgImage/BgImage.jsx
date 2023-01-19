@@ -37,7 +37,7 @@ const BgImage = () => {
         <div className="bgImgWrapper"></div>
         <img
           className="bgPosterImg"
-          src={`http://image.tmdb.org/t/p/original${movie.backdrop_path}`}
+          src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
           // src="https://uhdwallpapers.org/uploads/converted/21/11/20/spider-man-no-way-home-1280x720_945945-mm-90.webp"
         ></img>
 
