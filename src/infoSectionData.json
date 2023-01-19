@@ -8,19 +8,19 @@
     {
         "h1" : "Watch everywhere.",
         "h3" : "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.",
-        "src" : "/assets/mobile-0819.jpg",
+        "src" : "assets/mobile-0819.jpg",
         "rowAlignment" : "row-reverse"
     },
     {
         "h1" : "Download your shows to watch offline.",
         "h3" : "Available on all plans except Basic with ads.",
-        "src" : "/assets/tv-gif.gif",
+        "src" : "assets/tv-gif.gif",
         "rowAlignment" : "row"
     },
     {
         "h1" : "Create profiles for kids.        ",
         "h3" : "Send kids on adventures with their favorite\n characters in a space made just for them—\nfree with your membership.",
-        "src" : "/assets/kids.png",
+        "src" : "assets/kids.png",
         "rowAlignment" : "row-reverse"
     }
 ]
